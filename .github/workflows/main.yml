@@ -23,4 +23,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ vars.DOCKER_USERNAME }}/Caribou-metagenomics:latest
+          tags: ${{ vars.DOCKER_USERNAME }}/caribou-metagenomics:latest
