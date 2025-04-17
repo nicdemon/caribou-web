@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-cred = credentials.Certificate('.secrets/caribou-web-app-firebase-adminsdk-fbsvc-d5c858c0c9.json')
+cred = credentials.Certificate('.secrets/caribou-web-app-firebase-adminsdk-fbsvc-f15cb2c888.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 

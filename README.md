@@ -8,9 +8,14 @@ Deployment, hosting and computing are done using Firebase.
 
 To deploy the app locally:
 ```
-flet run --web
+flet run --web --port 8000
 ```
 
-
+<!-- 
 **WARNING: CARIBOU REQUIRES PYTHON 3.10 TO INSTALL ALL DEPENDENCIES
 NEED TO CREATE A DOCKER FOR USAGE BEFOREANYTHING ELSE**
+
+1. Docker de Caribou
+2. Demo Gradio sur HuggingFace
+3. Flet app sur Firebase
+ -->
