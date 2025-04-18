@@ -164,3 +164,6 @@ storage/
 
 # Firebase
 .secrets
+
+# Caribou
+Caribou/
